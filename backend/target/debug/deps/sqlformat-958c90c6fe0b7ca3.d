@@ -1,0 +1,12 @@
+/Users/kim/dev/rust/rust-todomvc/backend/target/debug/deps/sqlformat-958c90c6fe0b7ca3.rmeta: /Users/kim/.cargo/registry/src/github.com-1ecc6299db9ec823/sqlformat-0.1.8/src/lib.rs /Users/kim/.cargo/registry/src/github.com-1ecc6299db9ec823/sqlformat-0.1.8/src/formatter.rs /Users/kim/.cargo/registry/src/github.com-1ecc6299db9ec823/sqlformat-0.1.8/src/indentation.rs /Users/kim/.cargo/registry/src/github.com-1ecc6299db9ec823/sqlformat-0.1.8/src/inline_block.rs /Users/kim/.cargo/registry/src/github.com-1ecc6299db9ec823/sqlformat-0.1.8/src/params.rs /Users/kim/.cargo/registry/src/github.com-1ecc6299db9ec823/sqlformat-0.1.8/src/tokenizer.rs
+
+/Users/kim/dev/rust/rust-todomvc/backend/target/debug/deps/libsqlformat-958c90c6fe0b7ca3.rlib: /Users/kim/.cargo/registry/src/github.com-1ecc6299db9ec823/sqlformat-0.1.8/src/lib.rs /Users/kim/.cargo/registry/src/github.com-1ecc6299db9ec823/sqlformat-0.1.8/src/formatter.rs /Users/kim/.cargo/registry/src/github.com-1ecc6299db9ec823/sqlformat-0.1.8/src/indentation.rs /Users/kim/.cargo/registry/src/github.com-1ecc6299db9ec823/sqlformat-0.1.8/src/inline_block.rs /Users/kim/.cargo/registry/src/github.com-1ecc6299db9ec823/sqlformat-0.1.8/src/params.rs /Users/kim/.cargo/registry/src/github.com-1ecc6299db9ec823/sqlformat-0.1.8/src/tokenizer.rs
+
+/Users/kim/dev/rust/rust-todomvc/backend/target/debug/deps/sqlformat-958c90c6fe0b7ca3.d: /Users/kim/.cargo/registry/src/github.com-1ecc6299db9ec823/sqlformat-0.1.8/src/lib.rs /Users/kim/.cargo/registry/src/github.com-1ecc6299db9ec823/sqlformat-0.1.8/src/formatter.rs /Users/kim/.cargo/registry/src/github.com-1ecc6299db9ec823/sqlformat-0.1.8/src/indentation.rs /Users/kim/.cargo/registry/src/github.com-1ecc6299db9ec823/sqlformat-0.1.8/src/inline_block.rs /Users/kim/.cargo/registry/src/github.com-1ecc6299db9ec823/sqlformat-0.1.8/src/params.rs /Users/kim/.cargo/registry/src/github.com-1ecc6299db9ec823/sqlformat-0.1.8/src/tokenizer.rs
+
+/Users/kim/.cargo/registry/src/github.com-1ecc6299db9ec823/sqlformat-0.1.8/src/lib.rs:
+/Users/kim/.cargo/registry/src/github.com-1ecc6299db9ec823/sqlformat-0.1.8/src/formatter.rs:
+/Users/kim/.cargo/registry/src/github.com-1ecc6299db9ec823/sqlformat-0.1.8/src/indentation.rs:
+/Users/kim/.cargo/registry/src/github.com-1ecc6299db9ec823/sqlformat-0.1.8/src/inline_block.rs:
+/Users/kim/.cargo/registry/src/github.com-1ecc6299db9ec823/sqlformat-0.1.8/src/params.rs:
+/Users/kim/.cargo/registry/src/github.com-1ecc6299db9ec823/sqlformat-0.1.8/src/tokenizer.rs:

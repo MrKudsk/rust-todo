@@ -1,0 +1,13 @@
+/Users/kim/dev/rust/rust-todomvc/backend/target/debug/deps/quote-ba9a3778f4df295f.rmeta: /Users/kim/.cargo/registry/src/github.com-1ecc6299db9ec823/quote-1.0.21/src/lib.rs /Users/kim/.cargo/registry/src/github.com-1ecc6299db9ec823/quote-1.0.21/src/ext.rs /Users/kim/.cargo/registry/src/github.com-1ecc6299db9ec823/quote-1.0.21/src/format.rs /Users/kim/.cargo/registry/src/github.com-1ecc6299db9ec823/quote-1.0.21/src/ident_fragment.rs /Users/kim/.cargo/registry/src/github.com-1ecc6299db9ec823/quote-1.0.21/src/to_tokens.rs /Users/kim/.cargo/registry/src/github.com-1ecc6299db9ec823/quote-1.0.21/src/runtime.rs /Users/kim/.cargo/registry/src/github.com-1ecc6299db9ec823/quote-1.0.21/src/spanned.rs
+
+/Users/kim/dev/rust/rust-todomvc/backend/target/debug/deps/libquote-ba9a3778f4df295f.rlib: /Users/kim/.cargo/registry/src/github.com-1ecc6299db9ec823/quote-1.0.21/src/lib.rs /Users/kim/.cargo/registry/src/github.com-1ecc6299db9ec823/quote-1.0.21/src/ext.rs /Users/kim/.cargo/registry/src/github.com-1ecc6299db9ec823/quote-1.0.21/src/format.rs /Users/kim/.cargo/registry/src/github.com-1ecc6299db9ec823/quote-1.0.21/src/ident_fragment.rs /Users/kim/.cargo/registry/src/github.com-1ecc6299db9ec823/quote-1.0.21/src/to_tokens.rs /Users/kim/.cargo/registry/src/github.com-1ecc6299db9ec823/quote-1.0.21/src/runtime.rs /Users/kim/.cargo/registry/src/github.com-1ecc6299db9ec823/quote-1.0.21/src/spanned.rs
+
+/Users/kim/dev/rust/rust-todomvc/backend/target/debug/deps/quote-ba9a3778f4df295f.d: /Users/kim/.cargo/registry/src/github.com-1ecc6299db9ec823/quote-1.0.21/src/lib.rs /Users/kim/.cargo/registry/src/github.com-1ecc6299db9ec823/quote-1.0.21/src/ext.rs /Users/kim/.cargo/registry/src/github.com-1ecc6299db9ec823/quote-1.0.21/src/format.rs /Users/kim/.cargo/registry/src/github.com-1ecc6299db9ec823/quote-1.0.21/src/ident_fragment.rs /Users/kim/.cargo/registry/src/github.com-1ecc6299db9ec823/quote-1.0.21/src/to_tokens.rs /Users/kim/.cargo/registry/src/github.com-1ecc6299db9ec823/quote-1.0.21/src/runtime.rs /Users/kim/.cargo/registry/src/github.com-1ecc6299db9ec823/quote-1.0.21/src/spanned.rs
+
+/Users/kim/.cargo/registry/src/github.com-1ecc6299db9ec823/quote-1.0.21/src/lib.rs:
+/Users/kim/.cargo/registry/src/github.com-1ecc6299db9ec823/quote-1.0.21/src/ext.rs:
+/Users/kim/.cargo/registry/src/github.com-1ecc6299db9ec823/quote-1.0.21/src/format.rs:
+/Users/kim/.cargo/registry/src/github.com-1ecc6299db9ec823/quote-1.0.21/src/ident_fragment.rs:
+/Users/kim/.cargo/registry/src/github.com-1ecc6299db9ec823/quote-1.0.21/src/to_tokens.rs:
+/Users/kim/.cargo/registry/src/github.com-1ecc6299db9ec823/quote-1.0.21/src/runtime.rs:
+/Users/kim/.cargo/registry/src/github.com-1ecc6299db9ec823/quote-1.0.21/src/spanned.rs:

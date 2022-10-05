@@ -1,0 +1,11 @@
+/Users/kim/dev/rust/rust-todomvc/backend/target/debug/deps/parking_lot_core-f5481185861942a6.rmeta: /Users/kim/.cargo/registry/src/github.com-1ecc6299db9ec823/parking_lot_core-0.9.3/src/lib.rs /Users/kim/.cargo/registry/src/github.com-1ecc6299db9ec823/parking_lot_core-0.9.3/src/parking_lot.rs /Users/kim/.cargo/registry/src/github.com-1ecc6299db9ec823/parking_lot_core-0.9.3/src/spinwait.rs /Users/kim/.cargo/registry/src/github.com-1ecc6299db9ec823/parking_lot_core-0.9.3/src/thread_parker/mod.rs /Users/kim/.cargo/registry/src/github.com-1ecc6299db9ec823/parking_lot_core-0.9.3/src/util.rs /Users/kim/.cargo/registry/src/github.com-1ecc6299db9ec823/parking_lot_core-0.9.3/src/word_lock.rs /Users/kim/.cargo/registry/src/github.com-1ecc6299db9ec823/parking_lot_core-0.9.3/src/thread_parker/unix.rs
+
+/Users/kim/dev/rust/rust-todomvc/backend/target/debug/deps/parking_lot_core-f5481185861942a6.d: /Users/kim/.cargo/registry/src/github.com-1ecc6299db9ec823/parking_lot_core-0.9.3/src/lib.rs /Users/kim/.cargo/registry/src/github.com-1ecc6299db9ec823/parking_lot_core-0.9.3/src/parking_lot.rs /Users/kim/.cargo/registry/src/github.com-1ecc6299db9ec823/parking_lot_core-0.9.3/src/spinwait.rs /Users/kim/.cargo/registry/src/github.com-1ecc6299db9ec823/parking_lot_core-0.9.3/src/thread_parker/mod.rs /Users/kim/.cargo/registry/src/github.com-1ecc6299db9ec823/parking_lot_core-0.9.3/src/util.rs /Users/kim/.cargo/registry/src/github.com-1ecc6299db9ec823/parking_lot_core-0.9.3/src/word_lock.rs /Users/kim/.cargo/registry/src/github.com-1ecc6299db9ec823/parking_lot_core-0.9.3/src/thread_parker/unix.rs
+
+/Users/kim/.cargo/registry/src/github.com-1ecc6299db9ec823/parking_lot_core-0.9.3/src/lib.rs:
+/Users/kim/.cargo/registry/src/github.com-1ecc6299db9ec823/parking_lot_core-0.9.3/src/parking_lot.rs:
+/Users/kim/.cargo/registry/src/github.com-1ecc6299db9ec823/parking_lot_core-0.9.3/src/spinwait.rs:
+/Users/kim/.cargo/registry/src/github.com-1ecc6299db9ec823/parking_lot_core-0.9.3/src/thread_parker/mod.rs:
+/Users/kim/.cargo/registry/src/github.com-1ecc6299db9ec823/parking_lot_core-0.9.3/src/util.rs:
+/Users/kim/.cargo/registry/src/github.com-1ecc6299db9ec823/parking_lot_core-0.9.3/src/word_lock.rs:
+/Users/kim/.cargo/registry/src/github.com-1ecc6299db9ec823/parking_lot_core-0.9.3/src/thread_parker/unix.rs:

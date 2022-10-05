@@ -1,0 +1,14 @@
+/Users/kim/dev/rust/rust-todomvc/backend/target/debug/deps/sqlb-6f525b263d47474b.rmeta: /Users/kim/.cargo/registry/src/github.com-1ecc6299db9ec823/sqlb-0.0.7/src/lib.rs /Users/kim/.cargo/registry/src/github.com-1ecc6299db9ec823/sqlb-0.0.7/src/core.rs /Users/kim/.cargo/registry/src/github.com-1ecc6299db9ec823/sqlb-0.0.7/src/delete.rs /Users/kim/.cargo/registry/src/github.com-1ecc6299db9ec823/sqlb-0.0.7/src/insert.rs /Users/kim/.cargo/registry/src/github.com-1ecc6299db9ec823/sqlb-0.0.7/src/select.rs /Users/kim/.cargo/registry/src/github.com-1ecc6299db9ec823/sqlb-0.0.7/src/sqlx_exec.rs /Users/kim/.cargo/registry/src/github.com-1ecc6299db9ec823/sqlb-0.0.7/src/update.rs /Users/kim/.cargo/registry/src/github.com-1ecc6299db9ec823/sqlb-0.0.7/src/val.rs
+
+/Users/kim/dev/rust/rust-todomvc/backend/target/debug/deps/libsqlb-6f525b263d47474b.rlib: /Users/kim/.cargo/registry/src/github.com-1ecc6299db9ec823/sqlb-0.0.7/src/lib.rs /Users/kim/.cargo/registry/src/github.com-1ecc6299db9ec823/sqlb-0.0.7/src/core.rs /Users/kim/.cargo/registry/src/github.com-1ecc6299db9ec823/sqlb-0.0.7/src/delete.rs /Users/kim/.cargo/registry/src/github.com-1ecc6299db9ec823/sqlb-0.0.7/src/insert.rs /Users/kim/.cargo/registry/src/github.com-1ecc6299db9ec823/sqlb-0.0.7/src/select.rs /Users/kim/.cargo/registry/src/github.com-1ecc6299db9ec823/sqlb-0.0.7/src/sqlx_exec.rs /Users/kim/.cargo/registry/src/github.com-1ecc6299db9ec823/sqlb-0.0.7/src/update.rs /Users/kim/.cargo/registry/src/github.com-1ecc6299db9ec823/sqlb-0.0.7/src/val.rs
+
+/Users/kim/dev/rust/rust-todomvc/backend/target/debug/deps/sqlb-6f525b263d47474b.d: /Users/kim/.cargo/registry/src/github.com-1ecc6299db9ec823/sqlb-0.0.7/src/lib.rs /Users/kim/.cargo/registry/src/github.com-1ecc6299db9ec823/sqlb-0.0.7/src/core.rs /Users/kim/.cargo/registry/src/github.com-1ecc6299db9ec823/sqlb-0.0.7/src/delete.rs /Users/kim/.cargo/registry/src/github.com-1ecc6299db9ec823/sqlb-0.0.7/src/insert.rs /Users/kim/.cargo/registry/src/github.com-1ecc6299db9ec823/sqlb-0.0.7/src/select.rs /Users/kim/.cargo/registry/src/github.com-1ecc6299db9ec823/sqlb-0.0.7/src/sqlx_exec.rs /Users/kim/.cargo/registry/src/github.com-1ecc6299db9ec823/sqlb-0.0.7/src/update.rs /Users/kim/.cargo/registry/src/github.com-1ecc6299db9ec823/sqlb-0.0.7/src/val.rs
+
+/Users/kim/.cargo/registry/src/github.com-1ecc6299db9ec823/sqlb-0.0.7/src/lib.rs:
+/Users/kim/.cargo/registry/src/github.com-1ecc6299db9ec823/sqlb-0.0.7/src/core.rs:
+/Users/kim/.cargo/registry/src/github.com-1ecc6299db9ec823/sqlb-0.0.7/src/delete.rs:
+/Users/kim/.cargo/registry/src/github.com-1ecc6299db9ec823/sqlb-0.0.7/src/insert.rs:
+/Users/kim/.cargo/registry/src/github.com-1ecc6299db9ec823/sqlb-0.0.7/src/select.rs:
+/Users/kim/.cargo/registry/src/github.com-1ecc6299db9ec823/sqlb-0.0.7/src/sqlx_exec.rs:
+/Users/kim/.cargo/registry/src/github.com-1ecc6299db9ec823/sqlb-0.0.7/src/update.rs:
+/Users/kim/.cargo/registry/src/github.com-1ecc6299db9ec823/sqlb-0.0.7/src/val.rs:
