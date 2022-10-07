@@ -1,1 +1,12 @@
-/target
+.*
+!.gitignore
+
+# Rust dev assets
+target/
+debug/
+
+# Nodejs dev assets
+node_modules/
+
+# JS will be compiled from .ts
+frontend/web-folder/js
