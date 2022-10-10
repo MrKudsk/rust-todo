@@ -1,5 +1,5 @@
 -- DEV ONLY - Brute Force recreate DB for live dev and unit test
-SELECT pg_terminate_backend(pid) FROM pg_stat_activity WHERE username = 'app_user';
+SELECT pg_terminate_backend(pid) FROM pg_stat_activity WHERE usename = 'app_user';
 DROP DATABASE IF EXISTS app_db;
 DROP USER IF EXISTS app_user;
 
