@@ -113,3 +113,23 @@ async fn model_todo_update_ok() -> Result<(), Box<dyn std::error::Error>> {
 	Ok(())
 }
 
+#[tokio::test]
+async fn model_todo_delete_simple() -> Result<(), Box<dyn std::error::Error>> {
+	// -- FIXTURE
+	let db = init_db().await?;
+	let utx = utx_from_token("123").await?;
+
+	// -- ACTION
+	let todo = TodoMac::delete(&db, &utx, 100).await?;
+
+	// -- CHECK - deleted item
+	assert_eq!(100, todo.id);
+	assert_eq!("todo 100", todo.title);
+
+	// -- CHECK - list
+	let todos: Vec<Todo> = sqlb::select().table("todo").fetch_all(&db).await?;
+	assert_eq!(1, todos.len());
+
+	Ok(())
+}
+

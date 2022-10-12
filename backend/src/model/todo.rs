@@ -51,12 +51,26 @@ impl TodoMac {
         Ok(todo)
     }
 
+    pub async fn update(db: &Db, utx: &UserCtx, id: i64, data: TodoPatch) -> Result<Todo, model::Error> {
+        let mut fields = data.fields();
+        fields.push(("cid", utx.user_id).into());
+        let sb = sqlb::update()
+            .table(Self::TABLE)
+            .data(fields)
+            .and_where_eq("id", id)
+            .returning(Self::COLUMNS);
+
+        let result = sb.fetch_one(db).await;
+
+        handle_fetch_one_result(result, Self::TABLE, id)
+    }
+
     pub async fn get(db: &Db, _utx: &UserCtx, id: i64) -> Result<Todo, model::Error> {
         let sb = sqlb::select().table(Self::TABLE).columns(Self::COLUMNS).and_where_eq("id", id);
 
-        let todo = sb.fetch_one(db).await?;
+        let result = sb.fetch_one(db).await;
 
-        Ok(todo)
+        handle_fetch_one_result(result, Self::TABLE, id)
     }
 
     pub async fn list(db: &Db, _utx: &UserCtx) -> Result<Vec<Todo>, model::Error> {
@@ -70,6 +84,25 @@ impl TodoMac {
         
         Ok(todos)
     }
+
+    pub async fn delete(db: &Db, _utx: &UserCtx, id: i64) -> Result<Todo, model::Error> {
+        let sb = sqlb::delete()
+            .table(Self::TABLE)
+            .and_where_eq("id", id)
+            .returning(Self::COLUMNS);
+
+        let result = sb.fetch_one(db).await;
+
+        handle_fetch_one_result(result, Self::TABLE, id)
+    }
+
+}
+
+fn handle_fetch_one_result(result: Result<Todo, sqlx::Error>, typ: &'static str, id: i64) -> Result<Todo, model::Error> {
+    result.map_err(|sqlx_error| match sqlx_error {
+        sqlx::Error::RowNotFound => model::Error::EntityNotFound(typ, id.to_string()),
+        other => model::Error::SqlxError(other),
+    })
 }
 
 #[cfg(test)]
