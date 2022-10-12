@@ -108,6 +108,7 @@ async fn model_todo_update_ok() -> Result<(), Box<dyn std::error::Error>> {
 	let todos = TodoMac::list(&db, &utx).await?;
 	assert_eq!(3, todos.len());
 	assert_eq!(todo_fx.id, todo_updated.id);
+	//assert_eq!(utx.user_id, todo_updated.mid);
 	assert_eq!(update_data_fx.title.unwrap(), todo_updated.title);
 
 	Ok(())

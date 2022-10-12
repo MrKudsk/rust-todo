@@ -53,7 +53,8 @@ impl TodoMac {
 
     pub async fn update(db: &Db, utx: &UserCtx, id: i64, data: TodoPatch) -> Result<Todo, model::Error> {
         let mut fields = data.fields();
-        fields.push(("cid", utx.user_id).into());
+        fields.push(("mid", utx.user_id).into());
+        fields.push(("mtime", Raw("now()")).into());
         let sb = sqlb::update()
             .table(Self::TABLE)
             .data(fields)
