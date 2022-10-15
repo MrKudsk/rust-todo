@@ -5,7 +5,7 @@ use crate::web::Error;
 use std::sync::Arc;
 use warp::{Filter, Rejection};
 
-const HEADER_XAUTH: &str = "X-Auth-Tokoen";
+const HEADER_XAUTH: &str = "X-Auth-Token";
 
 pub fn do_auth(db: Arc<Db>) -> impl Filter<Extract = (UserCtx,), Error = Rejection> + Clone {
     //warp::any().and_then(|| async {Ok::<UserCtx, Rejection>(utx_from_token("123").await?) })
