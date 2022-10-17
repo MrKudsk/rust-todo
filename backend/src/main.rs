@@ -1,6 +1,5 @@
 #![allow(unused)]  // silence unused warnings while exploring 
 
-
 use std::env;
 use std::sync::Arc;
 use model::init_db;

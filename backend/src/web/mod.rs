@@ -16,6 +16,10 @@ pub async fn start_web(web_folder: &str, web_port: u16, db: Arc<Db>) -> Result<(
     if !Path::new(web_folder).exists() {
         return Err(Error::FailStartWebFolderNotFound(web_folder.to_string()));
     }
+
+    println!("....1");
+    let apis = todo_rest_filters("api", db);
+
     // Static content
     let content = warp::fs::dir(web_folder.to_string());
     let root_index = warp::get()
@@ -24,7 +28,7 @@ pub async fn start_web(web_folder: &str, web_port: u16, db: Arc<Db>) -> Result<(
     let static_site = content.or(root_index);
 
     // Combine all routes
-    let routes = static_site.recover(handle_rejection);
+    let routes = apis.or(static_site).recover(handle_rejection);
 
     println!("Start 127.0.0.1:{} at {}",web_port, web_folder );
     warp::serve(routes).run(([127,0,0,1], web_port)).await;
@@ -34,7 +38,7 @@ pub async fn start_web(web_folder: &str, web_port: u16, db: Arc<Db>) -> Result<(
 
 async fn handle_rejection(err: Rejection) -> Result<impl Reply, Infallible> {
     // Print to server side
-    println!("\n\nERROR - {:?}", err);
+    println!("ERROR - {:?}", err);
 
     // TODO - Call log API for capture and store
     

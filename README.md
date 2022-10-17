@@ -18,6 +18,12 @@ cargo watch -q -c -w src/ -x 'test web_ -- --test-threads=1 --nocapture'
 cargo watch -q -c -w src/ -x 'run -- --/frontend/web-folder'
 ```
 
+**Frontend**
+
+```sh
+    npm run build -- -w 
+```
+
 ## DB
 
 ```sh

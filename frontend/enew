@@ -1,0 +1,5 @@
+import { BaseHTMLElement } from 'dom-native';
+
+class TodoMvc extends BaseHTMLElement {
+
+}
